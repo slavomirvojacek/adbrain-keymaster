@@ -211,8 +211,6 @@
   }
 
   function filter(event){
-    var tagName = (event.target || event.srcElement).tagName;
-    key.setScope(/^(INPUT|TEXTAREA|SELECT)$/.test(tagName) ? 'input' : 'all');
     return true;
   }
 
